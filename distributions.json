@@ -50,6 +50,13 @@
 			"scopes": ["public","directly_downloadable"]
 		},
 		{
+			"name":"JETBRAINS",
+			"ui_string":"JetBrains",
+			"api_string":"jetbrains",
+			"synonyms": ["jetbrains","JETBRAINS","JetBrains"],
+			"scopes": ["public","build_of_open_jdk","directly_downloadable"]
+		},
+		{
 			"name":"LIBERICA",
 			"ui_string":"Liberica",
 			"api_string":"liberica",
