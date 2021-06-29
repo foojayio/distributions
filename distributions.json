@@ -144,7 +144,7 @@
 			"name":"ZULU",
 			"ui_string":"Zulu",
 			"api_string":"zulu",
-			"synonyms": ["zulu","ZULU","Zulu"],
+			"synonyms": ["zulu","ZULU","Zulu","zulu_core","ZULU_CORE","Zulu_Core"],
 			"scopes": ["public","build_of_open_jdk","directly_downloadable"]
 		},
 		{
