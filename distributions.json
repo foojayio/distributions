@@ -146,6 +146,13 @@
 			"api_string":"zulu",
 			"synonyms": ["zulu","ZULU","Zulu"],
 			"scopes": ["public","build_of_open_jdk","directly_downloadable"]
+		},
+		{
+			"name":"ZULU_PRIME",
+			"ui_string":"Zulu Prime",
+			"api_string":"zulu_prime",
+			"synonyms": ["zulu_prime","ZULU_PRIME","Zulu_Prime"],
+			"scopes": ["public","build_of_open_jdk","directly_downloadable"]
 		}
 	]
 }
