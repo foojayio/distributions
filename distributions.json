@@ -79,7 +79,7 @@
 		},
 		{
 			"name":"MICROSOFT",
-			"ui_string":"Microsoft OpenJDK",
+			"ui_string":"Microsoft",
 			"api_string":"microsoft",
 			"synonyms": ["microsoft","Microsoft","MICROSOFT","Microsoft OpenJDK","Microsoft Build of OpenJDK"],
 			"scopes": ["public","build_of_open_jdk","directly_downloadable"]
