@@ -50,6 +50,13 @@
 			"scopes": ["public","directly_downloadable"]
 		},
 		{
+			"name":"GRAALVM_CE17",
+			"ui_string":"Graal VM CE 17",
+			"api_string":"graalvm_ce17",
+			"synonyms": ["graalvm_ce17","graalvmce17","GraalVM CE 17","GraalVMCE17","GraalVM_CE17"],
+			"scopes": ["public","directly_downloadable"]
+		},
+		{
 			"name":"JETBRAINS",
 			"ui_string":"JetBrains",
 			"api_string":"jetbrains",
