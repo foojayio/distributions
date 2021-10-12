@@ -15,6 +15,13 @@
 			"scopes": ["public","directly_downloadable"]
 		},
 		{
+			"name":"BISHENG",
+			"ui_string":"Bi Sheng",
+			"api_string":"bisheng",
+			"synonyms": ["bisheng", "BISHENG", "BiSheng", "bi_sheng", "BI_SHENG", "bi-sheng", "BI-SHENG", "bi sheng", "BI SHENG", "Bi Sheng"],
+			"scopes": ["public","build_of_open_jdk","directly_downloadable"]
+		},
+		{
 			"name":"CORRETTO",
 			"ui_string":"Corretto",
 			"api_string":"corretto",
@@ -61,6 +68,13 @@
 			"ui_string":"JetBrains",
 			"api_string":"jetbrains",
 			"synonyms": ["jetbrains","JETBRAINS","JetBrains"],
+			"scopes": ["public","build_of_open_jdk","directly_downloadable"]
+		},
+		{
+			"name":"KONA",
+			"ui_string":"Kona",
+			"api_string":"kona",
+			"synonyms": ["kona","KONA","Kona"],
 			"scopes": ["public","build_of_open_jdk","directly_downloadable"]
 		},
 		{
