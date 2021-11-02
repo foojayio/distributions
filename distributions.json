@@ -37,7 +37,7 @@
 			"ui_string":"Debian",
 			"api_string":"debian",
 			"synonyms": ["debian","DEBIAN","Debian"],
-			"scopes": ["public","build_of_open_jdk","directly_downloadable"],
+			"scopes": ["public","build_of_open_jdk","not_directly_downloadable"],
 			"maintained": true
 		},
 		{
