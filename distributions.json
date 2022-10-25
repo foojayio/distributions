@@ -46,7 +46,7 @@
 			"api_string":"graalvm_ce8",
 			"synonyms": ["graalvm_ce8","graalvmce8","GraalVM CE 8","GraalVMCE8","GraalVM_CE8"],
 			"scopes": ["public","directly_downloadable"],
-			"maintained": true
+			"maintained": false
 		},
 		{
 			"name":"GRAALVM_CE11",
@@ -62,7 +62,7 @@
 			"api_string":"graalvm_ce16",
 			"synonyms": ["graalvm_ce16","graalvmce16","GraalVM CE 16","GraalVMCE16","GraalVM_CE16"],
 			"scopes": ["public","directly_downloadable"],
-			"maintained": true
+			"maintained": false
 		},
 		{
 			"name":"GRAALVM_CE17",
@@ -72,6 +72,14 @@
 			"scopes": ["public","directly_downloadable"],
 			"maintained": true
 		},
+    {
+      "name":"GRAALVM_CE19",
+      "ui_string":"Graal VM CE 19",
+      "api_string":"graalvm_ce19",
+      "synonyms": ["graalvm_ce19","graalvmce19","GraalVM CE 19","GraalVMCE19","GraalVM_CE19"],
+      "scopes": ["public","directly_downloadable"],
+      "maintained": true
+    },
 		{
 			"name":"JETBRAINS",
 			"ui_string":"JetBrains",
