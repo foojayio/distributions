@@ -6,7 +6,9 @@
 			"api_string":"aoj",
 			"synonyms": ["aoj","AOJ"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": false
+			"maintained": false,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"AOJ_OPENJ9",
@@ -14,7 +16,9 @@
 			"api_string":"aoj_openj9",
 			"synonyms": ["aoj_openj9","AOJ_OpenJ9","AOJ_OPENJ9","AOJ OpenJ9","AOJ OPENJ9","aoj openj9"],
 			"scopes": ["public","directly_downloadable"],
-			"maintained": false
+			"maintained": false,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"BISHENG",
@@ -22,7 +26,9 @@
 			"api_string":"bisheng",
 			"synonyms": ["bisheng", "BISHENG", "BiSheng", "bi_sheng", "BI_SHENG", "bi-sheng", "BI-SHENG", "bi sheng", "BI SHENG", "Bi Sheng"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"CORRETTO",
@@ -30,7 +36,9 @@
 			"api_string":"corretto",
 			"synonyms": ["corretto","CORRETTO","Corretto"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"DEBIAN",
@@ -38,7 +46,9 @@
 			"api_string":"debian",
 			"synonyms": ["debian","DEBIAN","Debian"],
 			"scopes": ["public","build_of_openjdk","not_directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"DRAGONWELL",
@@ -46,7 +56,9 @@
 			"api_string":"dragonwell",
 			"synonyms": ["dragonwell","DRAGONWELL","Dragonwell"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"GLUON_GRAALVM",
@@ -54,7 +66,9 @@
 			"api_string":"gluon_graalvm",
 			"synonyms": ["gluon_graalvm","GLUON_GRAALVM","gluongraalvm","GLUONGRAALVM","gluon graalvm","Gluon GraalVM","GluonGraalVM"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": false,
+			"build_of_graalvm": true
 		},
 		{
 			"name":"GRAALVM_CE8",
@@ -62,7 +76,9 @@
 			"api_string":"graalvm_ce8",
 			"synonyms": ["graalvm_ce8","graalvmce8","GraalVM CE 8","GraalVMCE8","GraalVM_CE8"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": false,
+			"build_of_graalvm": true
 		},
 		{
 			"name":"GRAALVM_CE11",
@@ -70,7 +86,9 @@
 			"api_string":"graalvm_ce11",
 			"synonyms": ["graalvm_ce11","graalvmce11","GraalVM CE 11","GraalVMCE11","GraalVM_CE11"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": false,
+			"build_of_graalvm": true
 		},
 		{
 			"name":"GRAALVM_CE16",
@@ -78,7 +96,9 @@
 			"api_string":"graalvm_ce16",
 			"synonyms": ["graalvm_ce16","graalvmce16","GraalVM CE 16","GraalVMCE16","GraalVM_CE16"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
-			"maintained": true
+			"maintained": false,
+			"build_of_openjdk": false,
+			"build_of_graalvm": true
 		},
 		{
 			"name":"GRAALVM_CE17",
@@ -86,7 +106,19 @@
 			"api_string":"graalvm_ce17",
 			"synonyms": ["graalvm_ce17","graalvmce17","GraalVM CE 17","GraalVMCE17","GraalVM_CE17"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": false,
+			"build_of_graalvm": true
+		},
+		{
+			"name":"GRAALVM_CE19",
+			"ui_string":"Graal VM CE 19",
+			"api_string":"graalvm_ce19",
+			"synonyms": ["graalvm_ce19","graalvmce19","GraalVM CE 19","GraalVMCE19","GraalVM_CE19"],
+			"scopes": ["public","build_of_graalvm","directly_downloadable"],
+			"maintained": true,
+			"build_of_openjdk": false,
+			"build_of_graalvm": true
 		},
 		{
 			"name":"JETBRAINS",
@@ -94,7 +126,9 @@
 			"api_string":"jetbrains",
 			"synonyms": ["jetbrains","JETBRAINS","JetBrains"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"KONA",
@@ -102,7 +136,9 @@
 			"api_string":"kona",
 			"synonyms": ["kona","KONA","Kona"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"LIBERICA",
@@ -110,7 +146,9 @@
 			"api_string":"liberica",
 			"synonyms": ["liberica","LIBERICA","Liberica"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"LIBERICA_NATIVE",
@@ -118,7 +156,9 @@
 			"api_string":"liberica_native",
 			"synonyms": ["liberica_native","LIBERICA_NATIVE","libericaNative","LibericaNative","liberica native","LIBERICA NATIVE","Liberica Native"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": false,
+			"build_of_graalvm": true
 		},
 		{
 			"name":"MANDREL",
@@ -126,7 +166,9 @@
 			"api_string":"mandrel",
 			"synonyms": ["mandrel","MANDREL","Mandrel"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": false,
+			"build_of_graalvm": true
 		},
 		{
 			"name":"MICROSOFT",
@@ -134,7 +176,9 @@
 			"api_string":"microsoft",
 			"synonyms": ["microsoft","Microsoft","MICROSOFT","Microsoft OpenJDK","Microsoft Build of OpenJDK"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"OJDK_BUILD",
@@ -142,7 +186,9 @@
 			"api_string":"ojdk_build",
 			"synonyms": ["ojdk_build","OJDK_BUILD","OJDK Build","ojdk build","ojdkbuild","OJDKBuild"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"OPEN_LOGIC",
@@ -150,7 +196,9 @@
 			"api_string":"openlogic",
 			"synonyms": ["openlogic","OPENLOGIC","OpenLogic","open_logic","OPEN_LOGIC","Open Logic","OPEN LOGIC","open logic"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"ORACLE",
@@ -158,7 +206,9 @@
 			"api_string":"oracle",
 			"synonyms": ["oracle","ORACLE","Oracle"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable","not_directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"ORACLE_OPEN_JDK",
@@ -166,7 +216,9 @@
 			"api_string":"oracle_open_jdk",
 			"synonyms": ["oracle_open_jdk","ORACLE_OPEN_JDK","oracle_openjdk","ORACLE_OPENJDK","Oracle_OpenJDK","Oracle OpenJDK","oracle openjdk","ORACLE OPENJDK","open_jdk","openjdk","OpenJDK","Open JDK","OPEN_JDK","open-jdk","OPEN-JDK","Oracle-OpenJDK","oracle-openjdk","ORACLE-OPENJDK","oracle-open-jdk","ORACLE-OPEN-JDK"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"RED_HAT",
@@ -174,7 +226,9 @@
 			"api_string":"redhat",
 			"synonyms": ["RedHat","redhat","REDHAT","Red Hat","red hat","RED HAT","Red_Hat","red_hat","red-hat","Red-Hat","RED-HAT"],
 			"scopes": ["public","build_of_openjdk","not_directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"SAP_MACHINE",
@@ -182,7 +236,9 @@
 			"api_string":"sap_machine",
 			"synonyms": ["sap_machine","sapmachine","SAPMACHINE","SAP_MACHINE","SAPMachine","SAP Machine","sap-machine","SAP-Machine","SAP-MACHINE"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"SEMERU",
@@ -190,7 +246,9 @@
 			"api_string":"semeru",
 			"synonyms": ["semeru", "Semeru", "SEMERU"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"SEMERU_CERTIFIED",
@@ -198,7 +256,9 @@
 			"api_string":"semeru_certified",
 			"synonyms": ["semeru_certified", "SEMERU_CERTIFIED", "Semeru_Certified", "Semeru_certified", "semeru certified", "SEMERU CERTIFIED", "Semeru Certified", "Semeru certified"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"TEMURIN",
@@ -206,7 +266,9 @@
 			"api_string":"temurin",
 			"synonyms": ["temurin","TEMURIN","Temurin"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"TRAVA",
@@ -214,7 +276,9 @@
 			"api_string":"trava",
 			"synonyms": ["trava","TRAVA","Trava","trava_openjdk","TRAVA_OPENJDK","trava openjdk","TRAVA OPENJDK"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"ZULU",
@@ -222,7 +286,9 @@
 			"api_string":"zulu",
 			"synonyms": ["zulu","ZULU","Zulu","zulucore","ZULUCORE","ZuluCore","zulu_core","ZULU_CORE","Zulu_Core","zulu core","ZULU CORE","Zulu Core"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		},
 		{
 			"name":"ZULU_PRIME",
@@ -230,7 +296,9 @@
 			"api_string":"zulu_prime",
 			"synonyms": ["zing","ZING","Zing","prime","PRIME","Prime","zuluprime","ZULUPRIME","ZuluPrime","zulu_prime","ZULU_PRIME","Zulu_Prime","zulu prime","ZULU PRIME","Zulu Prime"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true
+			"maintained": true,
+			"build_of_openjdk": true,
+			"build_of_graalvm": false
 		}
 	]
 }
