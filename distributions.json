@@ -186,7 +186,7 @@
 			"api_string":"ojdk_build",
 			"synonyms": ["ojdk_build","OJDK_BUILD","OJDK Build","ojdk build","ojdkbuild","OJDKBuild"],
 			"scopes": ["public","build_of_openjdk","directly_downloadable"],
-			"maintained": true,
+			"maintained": false,
 			"build_of_openjdk": true,
 			"build_of_graalvm": false
 		},
