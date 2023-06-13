@@ -120,6 +120,16 @@
 			"build_of_openjdk": false,
 			"build_of_graalvm": true
 		},
+    {
+      "name":"GRAALVM_CE20",
+      "ui_string":"Graal VM CE 20",
+      "api_string":"graalvm_ce20",
+      "synonyms": ["graalvm_ce20","graalvmce20","GraalVM CE 20","GraalVMCE20","GraalVM_CE20"],
+      "scopes": ["public","build_of_graalvm","directly_downloadable"],
+      "maintained": true,
+      "build_of_openjdk": false,
+      "build_of_graalvm": true
+    },
 		{
 			"name":"JETBRAINS",
 			"ui_string":"JetBrains",
