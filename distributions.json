@@ -72,7 +72,7 @@
 		},
 		{
 			"name":"GRAALVM_CE8",
-			"ui_string":"Graal VM CE 8",
+			"ui_string":"GraalVM CE 8",
 			"api_string":"graalvm_ce8",
 			"synonyms": ["graalvm_ce8","graalvmce8","GraalVM CE 8","GraalVMCE8","GraalVM_CE8"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
@@ -82,7 +82,7 @@
 		},
 		{
 			"name":"GRAALVM_CE11",
-			"ui_string":"Graal VM CE 11",
+			"ui_string":"GraalVM CE 11",
 			"api_string":"graalvm_ce11",
 			"synonyms": ["graalvm_ce11","graalvmce11","GraalVM CE 11","GraalVMCE11","GraalVM_CE11"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
@@ -92,7 +92,7 @@
 		},
 		{
 			"name":"GRAALVM_CE16",
-			"ui_string":"Graal VM CE 16",
+			"ui_string":"GraalVM CE 16",
 			"api_string":"graalvm_ce16",
 			"synonyms": ["graalvm_ce16","graalvmce16","GraalVM CE 16","GraalVMCE16","GraalVM_CE16"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
@@ -102,7 +102,7 @@
 		},
 		{
 			"name":"GRAALVM_CE17",
-			"ui_string":"Graal VM CE 17",
+			"ui_string":"GraalVM CE 17",
 			"api_string":"graalvm_ce17",
 			"synonyms": ["graalvm_ce17","graalvmce17","GraalVM CE 17","GraalVMCE17","GraalVM_CE17"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
@@ -112,7 +112,7 @@
 		},
 		{
 			"name":"GRAALVM_CE19",
-			"ui_string":"Graal VM CE 19",
+			"ui_string":"GraalVM CE 19",
 			"api_string":"graalvm_ce19",
 			"synonyms": ["graalvm_ce19","graalvmce19","GraalVM CE 19","GraalVMCE19","GraalVM_CE19"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
@@ -122,9 +122,39 @@
 		},
     {
       "name":"GRAALVM_CE20",
-      "ui_string":"Graal VM CE 20",
+      "ui_string":"GraalVM CE 20",
       "api_string":"graalvm_ce20",
       "synonyms": ["graalvm_ce20","graalvmce20","GraalVM CE 20","GraalVMCE20","GraalVM_CE20"],
+      "scopes": ["public","build_of_graalvm","directly_downloadable"],
+      "maintained": true,
+      "build_of_openjdk": false,
+      "build_of_graalvm": true
+    },
+    {
+      "name":"GRAALVM_CE20",
+      "ui_string":"GraalVM CE 20",
+      "api_string":"graalvm_ce20",
+      "synonyms": ["graalvm_ce20","graalvmce20","GraalVM CE 20","GraalVMCE20","GraalVM_CE20"],
+      "scopes": ["public","build_of_graalvm","directly_downloadable"],
+      "maintained": true,
+      "build_of_openjdk": false,
+      "build_of_graalvm": true
+    },
+    {
+      "name":"GRAALVM_COMMUNITY",
+      "ui_string":"GraalVM Community",
+      "api_string":"graalvm_community",
+      "synonyms": ["graalvm_community","graalvmcommunity","GraalVM Community","GraalVM_Community","GraalVMCommunity","GraalVM-Community","GRAALVM_COMMUNITY","GRAALVM-COMMUNITY"],
+      "scopes": ["public","build_of_graalvm","directly_downloadable"],
+      "maintained": true,
+      "build_of_openjdk": false,
+      "build_of_graalvm": true
+    },
+    {
+      "name":"GRAALVM",
+      "ui_string":"GraalVM",
+      "api_string":"graalvm",
+      "synonyms": ["graalvm","GRAALVM","GraalVM"],
       "scopes": ["public","build_of_graalvm","directly_downloadable"],
       "maintained": true,
       "build_of_openjdk": false,
@@ -164,7 +194,7 @@
 			"name":"LIBERICA_NATIVE",
 			"ui_string":"Liberica Native",
 			"api_string":"liberica_native",
-			"synonyms": ["liberica_native","LIBERICA_NATIVE","libericaNative","LibericaNative","liberica native","LIBERICA NATIVE","Liberica Native"],
+			"synonyms": ["liberica_native","LIBERICA_NATIVE","libericaNative","LibericaNative","liberica native","LIBERICA NATIVE","Liberica Native","Liberica NIK","liberica nik","LIBERICA NIK","liberica_nik","LIBERICA_NIK"],
 			"scopes": ["public","build_of_graalvm","directly_downloadable"],
 			"maintained": true,
 			"build_of_openjdk": false,
