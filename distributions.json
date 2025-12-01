@@ -50,8 +50,8 @@
 			"api_string":"debian",
 			"synonyms": ["debian","DEBIAN","Debian"],
 			"scopes": ["public","build_of_openjdk","not_directly_downloadable"],
-			"maintained": true,
-			"available" : true,
+			"maintained": false,
+			"available" : false,
 			"build_of_openjdk": true,
 			"build_of_graalvm": false
 		},
