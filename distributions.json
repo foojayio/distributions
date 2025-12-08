@@ -357,9 +357,9 @@
 			"ui_string":"Zulu Prime",
 			"api_string":"zulu_prime",
 			"synonyms": ["zing","ZING","Zing","prime","PRIME","Prime","zuluprime","ZULUPRIME","ZuluPrime","zulu_prime","ZULU_PRIME","Zulu_Prime","zulu prime","ZULU PRIME","Zulu Prime"],
-			"scopes": ["public","build_of_openjdk","directly_downloadable"],
+			"scopes": ["public","build_of_openjdk","not_directly_downloadable"],
 			"maintained": true,
-			"available" : true,
+			"available" : false,
 			"build_of_openjdk": true,
 			"build_of_graalvm": false
 		}
